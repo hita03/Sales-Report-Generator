@@ -1,4 +1,4 @@
-# Sales-Report-Generator
+# Sales Report Generator
 This is a project about building a sales data report generator web application using **Django** and **JavaScript**, to visualize the sales data, and upload sales records from csv files &amp; generate pdfs of the same.
 
 >A short demo can be found here: <https://youtu.be/Q-AQYTOnpYs>
