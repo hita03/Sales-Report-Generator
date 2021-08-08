@@ -94,4 +94,4 @@ Dropzone JS, a javascript library, is popularly used as it's an easy way to uplo
 
 I came across a lot of Bootstrap tags and elements, such as **Modals**, **Cards**, **Alerts**, **Dropdowns** and **Tables** that I experimented with in this project, which I did not/was not required in completing the other CS50W Projects' requirements.
 
-Thank You, for reading this far, and to CS50, for giving an abundance of knowledge to students like me. I have grown substantially through this experience, all credits to CS50!
+Thank You, for reading this far, and to CS50 Web, for giving an abundance of knowledge to students like me. I have grown substantially through this experience, all credits to CS50 Web!
