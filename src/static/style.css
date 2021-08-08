@@ -1,0 +1,32 @@
+.not-visible{
+    display: none;
+}
+
+.dstyle{
+    border: rgb(223, 220, 187);
+    border-style: dotted;
+    border-radius: 5px;
+    border-color: rgb(17, 5, 71);
+    transition: 1s;
+
+}
+
+.dstyle:hover{
+    background-color: rosybrown;
+}
+
+#logo{
+
+    width: auto;
+    height: 30px;
+}
+.avatar-big{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+td:nth-child(2) {
+    padding-right: 20px;
+}​

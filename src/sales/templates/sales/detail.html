@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %} {{object.transaction_id}} {% endblock title %}
+
+{% block content %} 
+<style>
+td:nth-child(3) {
+    padding-right: 20px;
+}​
+
+</style>
+    <div class="row mt-3 mb-3">
+        <div class="col-3">
+            <img src="{{object.customer.logo.url}}" style="height:150px; width:auto;"class="img-fluid">
+        </div>
+        <div class="col-9">
+            <ul>
+                <br>
+                <li> Transaction ID: <b>{{object.transaction_id}}</b>
+                <li> Salesman: <b>{{object.salesman.user.username}}</b>
+            </ul>
+        </div>
+    </div>
+<br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Customer</th>
+      <th scope="col">Product</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Price (USD)</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    {% for position in object.get_positions %}
+        <tr>
+            <th scope="row">{{forloop.counter}}</th>
+            <td>{{position.get_sales_customer}}</td>
+            <td>{{position.product.name}}</td>
+            <td>{{position.quantity}}</td>
+            <td>{{position.price}}</td>
+            
+        </tr>
+    {% endfor %}
+
+  </tbody>
+</table>
+
+{% endblock content %}

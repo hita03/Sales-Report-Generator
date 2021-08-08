@@ -1,0 +1,12 @@
+Pos,Transaction ID,Product,Quantity,Customer,Date
+1,E100,TV,1,Test customer 1,04-08-2021
+2,E101,Laptop,1,Test customer 2,05-08-2021
+3,E102,TV,1,Test customer 3,06-08-2021
+4,E103,Smartphone,2,Test customer 4,07-08-2021
+5,E104,Laptop,1,Test customer 3,08-08-2021
+6,E105,TV,1,Test customer 2,09-08-2021
+7,E106,Smartphone,3,Test customer 1,10-08-2021
+8,E107,Laptop,2,Test customer 1,11-08-2021
+9,E108,Smartphone,3,Test customer 2,12-08-2021
+10,E109,Smartphone,1,Test customer 3,13-08-2021
+11,E110,TV,1,Test customer 4,14-08-2021

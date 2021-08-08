@@ -1,0 +1,12 @@
+.dstyle{
+    border: rgb(223, 220, 187);
+    border-style: dotted;
+    border-radius: 5px;
+    border-color: rgb(17, 5, 71);
+    transition: 1s;
+
+}
+
+.dstyle:hover{
+    background-color: rosybrown;
+}

@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% load static%}
+{% load crispy_forms_tags %}
+{% block title %} title {% endblock title %}
+
+{% block scripts %}
+    <script  src="{% static 'sales/home.js' %}" defer></script>
+{% endblock scripts%}
+
+
+{% block content %}
+<!-- Modal -->
+<div class="modal fade" id="reportModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Report</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="modal-body">
+      <div id ="alert-box"></div>
+        <form id = "report-form" autocomplete="off">
+            {% csrf_token %}
+            {{report_form|crispy}}
+            <hr>
+            <button type="sumit" class="btn btn-primary">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> 
+
+{% if no_data %}
+    <div class="alert alert-danger" role="alert">
+    {{no_data}}
+    </div>
+{% endif %}
+
+
+<hr>
+<form action="" method ="POST">
+    {% csrf_token %}
+    {{search_form|crispy}}
+    <button type="submit" class="btn btn-primary mt-3">Search</button>
+</form>
+
+<br>
+
+{% if sales_df %}
+<div> 
+  <!--
+     <table class="table">
+      <thead>
+        <tr style="text-align: center;">
+          <th>Sales ID</th>
+          <th>Transaction ID</th>
+          <th>Total Price</th>
+          <th>Customer</th>
+          <th>Salesman</th>
+          <th>Date Created</th>
+        </tr>
+      </thead>
+    </table>
+
+  -->
+   
+
+
+    {{sales_df|safe}}
+
+    <br>
+
+    <!--{{ positions_df|safe}}
+    <br>
+    {{merged_df|safe}}
+
+    <br> -->
+    {{ df}}
+    <br>
+
+    <img id="img" style="width:90%;" src="data:image/png;base64,{{chart|safe}}">
+</div>      
+{% endif %}    
+<button class ="btn btn-primary not-visible mb-3" style="margin-left:70px;" id="report-btn" data-bs-toggle="modal" data-bs-target="#reportModal">Add Report</button>
+<br>
+{% endblock content %}
