@@ -93,3 +93,5 @@ Working with Dataframes(pandas), generating charts and creating images was total
 Dropzone JS, a javascript library, is popularly used as it's an easy way to upload multiple files and supports drag and drop uploads. Since this appliation is primarily useful on the web, accessed on a computer, Drpozone JS was the most convenient way to upload files.Their docs were comprehensive, provided a thorough understanding of various methods.
 
 I came across a lot of Bootstrap tags and elements, such as **Modals**, **Cards**, **Alerts**, **Dropdowns** and **Tables** that I experimented with in this project, which I did not/was not required in completing the other CS50W Projects' requirements.
+
+Thank You, for reading this far, and to CS50, for giving an abundance of knowledge to students like me. I have grown substantially through this experience, all credits to CS50!
