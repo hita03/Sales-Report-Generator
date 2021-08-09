@@ -10,6 +10,7 @@ This is a project about building a sales data report generator web application u
 ### Contents of the src (source code) directory
 
 This Django project is called `reports_proj` and has 5 applications, `customers`,`profiles`,`reports`,`products` and `sales`.
+
 `customers` gets and creates customers from the data files uploaded. Optionally, a picture for the customer can also be provided. Customer's profile image defaults to `no_picture.png` in the `media` folder. Although it has no urls, it's required as a Foreign Key because we have associate every customer with their transactions, and the products they purchase.
 
 `products` is an application where objects of products are created. A product name, selling price, and optional picture is provided. This application can be potentially used to provide details of every product, and a log file of the number of units and demand of each product in the market. But I have used it's model as a Foreign Key in almost every application, because the foundation of this project lies in the sale of various products.
@@ -29,6 +30,7 @@ This Django project is called `reports_proj` and has 5 applications, `customers`
 
 Create and activate your virtual environment:
 `virtualenv venv`
+
 `venv\Scripts\Activate`
 
 Run `pip install -r requirements.txt` in your shell.
@@ -36,6 +38,7 @@ This installs the required packages to run the application.
 
 `cd` to src directory.
 Run `python manage.py makemigrations` followed by `python manage.py migrate`
+
 Create a superuser that has access to Django Admin: `python manage.py createsuperuser`
 Start the development server with `python manage.py runserver` and login with the superuser's credentials
 
