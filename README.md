@@ -1,11 +1,17 @@
 # Sales Report Generator
 This is a project about building a sales data report generator web application using **Django** and **JavaScript**, to visualize the sales data, and upload sales records from csv files &amp; generate pdfs of the same.
 
->A short demo can be found here: <https://youtu.be/Q-AQYTOnpYs>
 
-Credits to pyplane, and the FreeCodeCamp.org channel for their step-by-step, hands on tutorial of this project: 
-Video: <https://www.youtube.com/watch?v=04L0BbAcCpQ>
-Channel: <https://www.youtube.com/channel/UCQtHyVB4O4Nwy1ff5qQnyRw>
+>### **A short demo can be found here: <https://youtu.be/Q-AQYTOnpYs>**
+
+<br/>
+
+Credits to pyplane, and the FreeCodeCamp.org channel for their hands on tutorial of this project:
+
+>Video: <https://www.youtube.com/watch?v=04L0BbAcCpQ>
+
+
+>Channel: <https://www.youtube.com/channel/UCQtHyVB4O4Nwy1ff5qQnyRw>
 
 ### Contents of the directory
 `src` folder contains source code, `Data.csv` is the file that we will upload, through which sales objects will be created. They will reflect in the dates we select (on the Home page) to generate a report.
