@@ -6,12 +6,6 @@ This is a project about building a sales data report generator web application u
 
 <br/>
 
-Credits to pyplane, and the FreeCodeCamp.org channel for their hands on tutorial of this project:
-
->Video: <https://www.youtube.com/watch?v=04L0BbAcCpQ>
-
-
->Channel: <https://www.youtube.com/channel/UCQtHyVB4O4Nwy1ff5qQnyRw>
 
 ### Contents of the directory
 `src` folder contains source code, `Data.csv` is the file that we will upload, through which sales objects will be created. They will reflect in the dates we select (on the Home page) to generate a report.
@@ -108,3 +102,11 @@ Dropzone JS, a javascript library, is popularly used as it's an easy way to uplo
 I came across a lot of Bootstrap tags and elements, such as **Modals**, **Cards**, **Alerts**, **Dropdowns** and **Tables** that I experimented with in this project, which I did not/was not required in completing the other CS50W Projects' requirements.
 
 Thank You, for reading this far, and to CS50 Web, for giving an abundance of knowledge to students like me. I have grown substantially through this experience, all credits to CS50 Web!
+
+
+Credits to pyplane, and the FreeCodeCamp.org channel for their hands on tutorial of this project:
+
+>Video: <https://www.youtube.com/watch?v=04L0BbAcCpQ>
+
+
+>Channel: <https://www.youtube.com/channel/UCQtHyVB4O4Nwy1ff5qQnyRw>
