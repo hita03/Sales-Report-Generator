@@ -104,9 +104,5 @@ I came across a lot of Bootstrap tags and elements, such as **Modals**, **Cards*
 Thank You, for reading this far, and to CS50 Web, for giving an abundance of knowledge to students like me. I have grown substantially through this experience, all credits to CS50 Web!
 
 
-Credits to pyplane, and the FreeCodeCamp.org channel for their hands on tutorial of this project:
-
->Video: <https://www.youtube.com/watch?v=04L0BbAcCpQ>
-
-
+Credits to pyplane, for their hands on tutorial:
 >Channel: <https://www.youtube.com/channel/UCQtHyVB4O4Nwy1ff5qQnyRw>
